@@ -2,7 +2,7 @@ import streamlit as st
 st.title("welcome to learn python tutorial")
 st.header("learn python from scratch")
 st.subheader("starting the course")
-st.markdown("We are starting with the project which will print the first 10 multiples of the number input by the user!")
+st.markdown("We are starting with the project which will print the first 10 multiples of the number that the user inputs!")
 st.code("""num = int(input("enter your number  :"))
         for i in range(1, 11):
             print(f"{num}X{i}={num*i}")
